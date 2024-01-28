@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from "react";
+import React, { useEffect, useRef } from "react";
 import { Chart } from "chart.js/auto";
 
 export default function Polarchart({ dataValues }) {
@@ -28,14 +28,14 @@ export default function Polarchart({ dataValues }) {
                     {
                         data: dataValues || [30, 30, 30, 30, 100, 30, 30, 30],
                         backgroundColor: [
-                            "rgb(255, 223, 186)",
-                            "rgb(255, 192, 203)",
-                            "rgb(173, 216, 230)",
-                            "rgb(240, 230, 140)",
-                            "rgb(221, 160, 221)",
-                            "rgb(144, 238, 144)",
-                            "rgb(255, 182, 193)",
-                            "rgb(175, 238, 238)",
+                            "rgba(255, 223, 186, 0.8)",
+                            "rgba(255, 192, 203, 0.8)",
+                            "rgba(173, 216, 230, 0.8)",
+                            "rgba(240, 230, 140, 0.8)",
+                            "rgba(221, 160, 221, 0.8)",
+                            "rgba(144, 238, 144, 0.8)",
+                            "rgba(255, 182, 193, 0.8)",
+                            "rgba(175, 238, 238, 0.8)",
                         ],
                     },
                 ],
