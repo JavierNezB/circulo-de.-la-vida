@@ -1,4 +1,27 @@
-.App{
-  height: 100%;
-  width: 100%;
+/* App.css */
+
+.custom-input {
+  width: 50px;
+  margin-left: 10px;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+}
+
+.input-container {
+  margin-right: 10px; /* Agregamos un margen derecho entre cada input-container */
+}
+
+.input-container:last-child {
+  margin-right: 0; /* Eliminamos el margen derecho del último input-container */
+}
+
+.inputs-wrapper {
+  margin-top: 2rem;
+  display: flex; /* Hacemos que los input-container se muestren en línea */
+  flex-wrap: wrap; /* Permitimos que se envuelvan en una nueva línea si no hay suficiente espacio */
+  margin-bottom: 10px; /* Puedes ajustar el margen inferior según tus preferencias */
+  justify-content: space-evenly;
+  align-items: center;
 }
